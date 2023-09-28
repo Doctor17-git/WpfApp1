@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="356" Width="289">
     <Grid>
-        <Grid x:Name="grid1" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="772">
-            <Button x:Name="button1" HorizontalAlignment="Left" Margin="171,175,0,0" VerticalAlignment="Top" Width="100" Height="30" Content="Выполнить" Click="Button_Click"/>
-            <Button Content="Привет,           мир!" HorizontalAlignment="Left" Margin="157,224,0,0" VerticalAlignment="Top" Width="122"/>
-            <Button Content="Button Name='button2'" HorizontalAlignment="Left" Margin="153,261,0,0" VerticalAlignment="Top" Width="131"/>
-            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="28,178,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Grid x:Name="grid1" HorizontalAlignment="Left" Height="305" Margin="10,10,0,0" VerticalAlignment="Top" Width="261" RenderTransformOrigin="0.692,0.725">
+            <Button x:Name="button1" HorizontalAlignment="Left" Margin="151,107,0,0" VerticalAlignment="Top" Width="100" Height="30" Content="Выполнить" Click="Button_Click"/>
+            <Button Content="Привет,           мир!" HorizontalAlignment="Left" Margin="25,146,0,0" VerticalAlignment="Top" Width="122"/>
+            <Button Content="Button Name='button2'" HorizontalAlignment="Left" Margin="21,182,0,0" VerticalAlignment="Top" Width="131"/>
+            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="92" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="241"/>
         </Grid>
 
     </Grid>

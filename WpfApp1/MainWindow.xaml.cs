@@ -28,6 +28,7 @@ namespace WpfApp1
             myButton.Width = 140;
             myButton.Height = 30;
             myButton.Content = "Программная кнопка";
+            myButton.Margin = new Thickness(1, 200, 100, 1);
             grid1.Children.Add(myButton);
         }
 
